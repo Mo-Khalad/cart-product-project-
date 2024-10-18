@@ -1,0 +1,42 @@
+.cartStyle{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:94vh;
+    width:17rem;
+    border-radius: 0.5rem;
+    background-color:rgb(48, 48, 88);
+    overflow-y: auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+} 
+.cartProductCover{
+    background-color: #f5f5f5;
+    border-radius: 0.5rem;
+    width:14rem;
+    height:8rem;
+    margin:auto;
+    margin-top:0.5rem;
+}
+.closeCart{
+    background: #ebe0e0 ;
+    color: rgb(241, 168, 115) ;
+    font-size: 1.2rem ;
+    border-radius: 1rem;
+    float: right;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    padding: 0.2rem 0.5rem;
+    position:absolute;
+    top:-1rem;
+    right: 0;
+}
+.closeCart:hover{
+    background-color:#c9c4c4 ;
+}
+.totalPrice{
+    color: #ebe0e0 ;
+
+}
+

@@ -5,9 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+:root{
+  --main-color:rgb(252, 172, 120);
+}  
+.productsCover{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+button , i{
+  cursor: pointer;
+}
+.plus ,.minus{
+  font-size: 0.6rem;
 }
